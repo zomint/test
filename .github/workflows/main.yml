@@ -11,5 +11,5 @@ jobs:
         id: hello
         uses: zomint/hello-world-javascript-action@v1.1
         with:
-          tag: 'main'
-          token: ${{ secrets.MY_TOKEN }}
+          tag_name: 'main'
+          github_token: ${{ secrets.MY_TOKEN }}
