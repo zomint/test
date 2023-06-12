@@ -13,4 +13,3 @@ jobs:
         with:
           tag_name: 'main'
           github_token: ${{ secrets.MY_TOKEN }}
-          force: false
